@@ -29,26 +29,30 @@ body {
     background-color: #403126;
 }
 
-@media (min-width: 350px) {
-    body {
-        margin: 0 1rem;
-    }
-}
-
-  /* Color Theme Swatches in Hex */
-  .Desert-pink-1-hex { color: #86B9BF; }
-  .Desert-pink-2-hex { color: #80756C; }
-  .Desert-pink-3-hex { color: #BF9F86; }
-  .Desert-pink-4-hex { color: #51676A; }
-  .Desert-pink-5-hex { color: #403126; }
+/* Color Theme Swatches in Hex */
+.Desert-pink-1-hex { color: #86B9BF; }
+.Desert-pink-2-hex { color: #80756C; }
+.Desert-pink-3-hex { color: #BF9F86; }
+.Desert-pink-4-hex { color: #51676A; }
+.Desert-pink-5-hex { color: #403126; }
   
 
 .main {
     flex: 1 0 auto;
+    margin: 0 1rem;
+}
+
+.two-col-gallery {
+    display: flex;
+    flex-direction:row;
+}
+.two-col-item {
+    flex-basis: 50%;
 }
 
 .header, .footer {
     flex: 0 0 auto;
+    margin: 0 1rem;
 }
 
 /* Header */
@@ -121,6 +125,10 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
     max-width: 100%;
+}
+
+a {
+    color: #BF9F86;
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
