@@ -23,7 +23,7 @@ I första delen av kursen introducerades labbmiljön, kursmaterial presenterades
 Den innehöll också sin beskärda del av felsökning. Ominstallation av Composer, installation av GD för Apache, diverse ändringar i php.ini osv. 
 
 ### Reflektion
-Det här var en intro-vecka. Jag läste allt material och lite till. Kursboken verkar vara ganska oteknisk, d.v.s. den innehåller lite info om CSS. Övrigt kursmaterial innehåller mycket info om CSS, men för att det ska sätta sig behöver jag öva, men en bra start att ha läst igenom det.
+Det här var en intro-vecka. Jag läste allt material och lite till. Kursboken verkar vara ganska oteknisk, d.v.s. den innehåller lite info om CSS, men mer om design. Övrigt kursmaterial innehåller mycket info om CSS, men för att det ska sätta sig behöver jag öva, men en bra start att ha läst igenom det.
 
 Jag lekte en del med olika färgverktyg, framför allt Adobes. Det hade två funktioner som verkar relevanta, 1) att **säkerställa att kontrasten mellan text- och bakgrundsfärg är ok**, och 2) att **säkerställa att de olika färgerna uppfattas av färgblinda** (och det finns tre olika typer av färgblindhet som det testas för).
 
