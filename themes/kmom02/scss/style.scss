@@ -3,8 +3,15 @@
 @forward 'code';
 @forward 'mobile-menu';
 @forward 'blockquotes';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
-
+$standardfont: 'Roboto', sans-serif;
+$headingfont: 'Open Sans', sans-serif; 
 
 
 * {
@@ -102,7 +109,6 @@ body {
 .footer a {
     color: $font-color;
 }
-
 .footer .social {
     font-size: 2rem;
 }
@@ -110,7 +116,7 @@ body {
 /* Typografy */
 
 body {
-    font-family: sans-serif;
+    font-family: $standardfont;
     line-height: 1.5rem;
     color: $font-color;
 }
@@ -124,6 +130,7 @@ p, td, th, li, dd {
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
+    font-family: $headingfont;
 }
 
 img {
