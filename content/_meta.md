@@ -4,5 +4,5 @@ Tagline: My portfolio.
 Social:
     - title: Länk till sidans github repo.
       url: https://github.com/KarlComSe/design-portfolio
-      icon: github
+      icon: fab fa-github
 ---

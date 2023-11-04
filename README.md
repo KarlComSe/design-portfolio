@@ -8,6 +8,7 @@ Some of the need software to run this:
 * PHP (preferably v.8+)
 * Composer
 * Apache
+* NPM
 
 The website utilizes [__PICO__](https://picocms.org/) as a lightweight content management system. TWIG is used as a templating language. 
 

@@ -49,7 +49,7 @@ function main()
                     }
                 });
             } else {
-                navIcon.className = 'fa fa-bars';
+                navIcon.className = 'fas fa-bars';
                 menuToggle.setAttribute('aria-expanded', 'false');
                 utils.slideUp(menu);
             }
@@ -57,7 +57,7 @@ function main()
         onResizeEvent = function () {
             if (utils.isElementVisible(menuToggle)) {
                 menu.className = 'hidden';
-                navIcon.className = 'fa fa-bars';
+                navIcon.className = 'fas fa-bars';
                 menuToggle.addEventListener('click', toggleMenuEvent);
                 menuToggle.addEventListener('keydown', toggleMenuEvent);
             } else {
