@@ -1,11 +1,12 @@
 <div class="footer">
     <div>
         <p>
-            En footer med lite text.
+           <i class="fas fa-wine-glass"></i>
         </p>
     </div>
     <div class="social">
         <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->
+        <i class="fas fa-wine-glass"></i>
         {% for social in pages["_meta"].meta.social %}
         <a href="{{ social.url }}" title="{{ social.title }}" role="button">
             <i class="{{ social.icon }}" aria-hidden="true"></i>

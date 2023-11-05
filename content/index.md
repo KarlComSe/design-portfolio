@@ -10,6 +10,7 @@ Hej! Det här är en uppgift i en kurs som handlar om design.
 
 Jag som läser kursen heter __Karl Wackerberg__. Jag är 36 år och bor i Göteborg. Jag gillar IT, programmering och webbutveckling. Det är en av anledningarna till att jag går läser denna kurs. Ja, det ska bli kul att lära sig om att skapa bra design, eller i alla fall, design som går obemärkt förbi och inte kräver timmar av arbete.
 
+
 <figure>
 <img src="%assets_url%/img/karl_large.jpg" alt="En selfie där Karl står på fjället "/>
 </figure>
@@ -30,3 +31,26 @@ Jag lekte en del med olika färgverktyg, framför allt Adobes. Det hade två fun
 När det gäller min design på denna sida, så ändrade jag snabbt lite färger. Jag skulle behöva ta ett helhetsgrepp på färgerna, för t.ex. kod-stycken med vit bakgrund och text i sidans text-färg, samt länkar, ser sådär ut. Ja, det är rent ut lite vågat att köra en brun hemsida.  Jag ändrade också bredden. Jag gillar inte hemsidor som sträcker sig över min 34" breda skärm. Det är bara möjligt att enkelt läsa när det är mindre än ca 900 px brett.
 
 En annan reflektion är om hur man ska presentera bilder av olika storlekar bredvid varandra. Jag läste inte kursbokens kapitel om bilder, men surfade runt lite och läste en annan bok, utan att bli så mycket klokare på hur jag ska jobba med bilder av olika storlek. Det slutade med att jag manuellt beskärde bilderna så att de fick samma proportioner. **Min nuvarande slutsats kring hur jag ska hantera bilder är att jag kan göra designer som klarar av ett par olika proportioner.** 
+
+## Uppgift 2 / Del 2
+I andra delen av kursen introduceras SASS, flertalet NPM paket används och konfigureras och det är fokus på typgrafi. 
+
+Själva inlämningen för uppgift 2 krävde bl.a.:
+* Skapa ett nytt / modifiera ett tema som använder SASS. Använd ett par olika SASS-konstruktioner utöver grundläggande CSS.  
+* Lägg till en undersida med lite text. 
+* Använd Font Awesome eller Google Fonts. 
+* Validera kod med Stylelint enligt SASS guidelines. 
+* Säkerställ att webbsidan fungerar ok på olika enheter (mobiltelefon + dator).
+* Använd normalize.css via NPM. 
+
+Del 2 innehöll också sin beskärda del av felsökning. Två exempel: 1) Hux flux hade mbstring extension till PHP avinstallerats och min sida slutade att fungera. Här använde jag mig av error.loggen i Apache för att hitta felet. 2) Konfigurationsfilen till stylelint ska stavas just så, och inte styleint (vilket är lätt felstavat om man jobbat med variabler av typen integer). Här läste jag först på om styleint och hur konfigurationsfilerna fungerar, och testade funktionaliteten, och plötslgit gick det bara upp för mig att jag stavat fel på filnamnet.  
+
+### Reflektion
+
+SASS är smidigt, även ifall CSS i många fall utvecklas. 
+
+Jag gillar när jag förstår vad jag gör med min kod och min dator. I detta kursavsnitt upplevde jag att det var en del "gör som i instruktionerna så kommer det att fungera". 
+
+Jag hade uppskattat
+* om det varit mer praktiska övningar kring typografi, där man faktiskt får göra om en dålig design till en bättre, om och om igen. Jag lär mig genom att öva och se skillnaderna. Som det är nu läser jag om t.ex. bredd på text, typsnitt, vertikal rytm och teckenavstånd, det hade varit bra att få göra ändringarna själv och se skillnaden. 
+* mer kring NPM, och även mer övningar kring SASS, så att man verkligen hade fått använda dess fulla potential. Övningarna kunde varit enkla, som att måla upp 10 st divs, med färger som ändras med hjälp av CSS nth-element pseudo-selektor, beräkningar på HSL samt variabler.   

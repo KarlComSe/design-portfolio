@@ -56,6 +56,7 @@ body {
     display: flex;
     flex-direction:row;
 }
+
 .two-col-item {
     flex-basis: 50%;
 }
@@ -76,15 +77,21 @@ body {
 
 .title, .logo {
     padding: 3em 3em 3em 0;
+
+    h1 {
+        line-height: 1.5em;        
+    }
 }
 
 @media (max-width: 767px) {
     .title, .logo {
         padding: 1em 1em 1em 0;
     }
+
     .title {
         min-width: 50%;
     }
+
     .logo {
         max-width: 30%;
     }
@@ -109,6 +116,7 @@ body {
 .footer a {
     color: $font-color;
 }
+
 .footer .social {
     font-size: 2rem;
 }
@@ -121,13 +129,15 @@ body {
     color: $font-color;
 }
 
-p, td, th, li, dd {
+p, td, th, li, dd, table {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
+    margin-bottom: 0.6em;
 }
 
 h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.2em;
     margin-bottom: 0.6em;
     font-weight: bold;
     font-family: $headingfont;
