@@ -2,12 +2,19 @@
 
 <body>
     {% include 'incl/nav.twig' %}
-
     <div class="main" role="main">
-        <h1>Min egen layout från technologies.twig</h1>
-        <div class="container">
-            {{ content }}
-        </div>
+            {% if meta.subnav %}
+            <div class="sub-page">
+                {% include 'incl/subnav.twig' %}
+                <div class="box">
+                    {{ content }}
+                </div>    
+            </div> 
+            {% else %}
+            <div class="container">
+                {{ content }}
+            </div>
+            {% endif %}        
     </div>
     
     {% include 'incl/footer.twig' %}

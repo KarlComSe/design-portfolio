@@ -8,7 +8,7 @@ Design portfolio
 
 Hej! Det här är en uppgift i en kurs som handlar om design. 
 
-Jag som läser kursen heter __Karl Wackerberg__. Jag är 36 år och bor i Göteborg. Jag gillar IT, programmering och webbutveckling. Det är en av anledningarna till att jag går läser denna kurs. Ja, det ska bli kul att lära sig om att skapa bra design, eller i alla fall, design som går obemärkt förbi och inte kräver timmar av arbete.
+Jag som läser kursen heter __Karl__. Jag är 36 år och bor i Göteborg. Jag gillar IT, programmering och webbutveckling. Det är en av anledningarna till att jag går läser denna kurs. Ja, det ska bli kul att lära sig om att skapa bra design, eller i alla fall, design som går obemärkt förbi och inte kräver timmar av arbete.
 
 
 <figure>
@@ -54,3 +54,16 @@ Jag gillar när jag förstår vad jag gör med min kod och min dator. I detta ku
 Jag hade uppskattat
 * om det varit mer praktiska övningar kring typografi, där man faktiskt får göra om en dålig design till en bättre, om och om igen. Jag lär mig genom att öva och se skillnaderna. Som det är nu läser jag om t.ex. bredd på text, typsnitt, vertikal rytm och teckenavstånd, det hade varit bra att få göra ändringarna själv och se skillnaden. 
 * mer kring NPM, och även mer övningar kring SASS, så att man verkligen hade fått använda dess fulla potential. Övningarna kunde varit enkla, som att måla upp 10 st divs, med färger som ändras med hjälp av CSS nth-element pseudo-selektor, beräkningar på HSL samt variabler.   
+
+## Uppgift 3 / Del 3
+I denna del av kursen har fokus varit på flexbox och grid-layout, kursmaterialet har även innehållit inslag av vad som utgör bra design med ett par regler (t.ex. att man definiera en storleksenhet som man använder i multiplar för text, marginaler osv.). För att lösa uppgiften var man även tvungen att förstå lite kring TWIG och hur PICO fungerar. 
+
+Själva inlämningen för uppgift 3 krävde att man:
+* Anpassade en tema-fil med TWIG och att man styrde hur den fungerade baserat på sidvariabler från PICO.
+* Lekte runt med grid layout och gjorde sidan flexibel.
+
+Del 3 innehöll väldigt lite felsökning. Jag har arbetat med grid och flex-box tidigare, men fick någon ny insikt, t.ex. hur code / pre fungerar i relation till att använda enheten fr, då behvöer man specificera minmax(0%,1fr) för att det ska bli en horisontell scrollbar och att inte pre-blocket ska renderas först och då ta upp så mycket utrymme som det behöver. 
+
+### Reflektion
+
+Grid och flex är helt fantastiskt. Jag har gjort webbsidor innan dessa koncept fanns, och det var ungefär så jobbigt så att jag gav upp. Det var floats hit och dit, absoluta och relativa positoner, z-index, o.s.v. och, det fanns t.o.m. ramverk för att underlätta grid-layout, ta en titt på https://960.gs/. En av min undersidor till Hobbies använder flex-box layout sen tidigare, och det är bara så smidigt!

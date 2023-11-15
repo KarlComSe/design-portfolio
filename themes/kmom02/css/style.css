@@ -6572,12 +6572,47 @@ body {
   line-height: 1.5em;
 }
 
+/*flex-box and grid, kmom03 */
 .container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1em 1em;
 }
+.container .span-1 {
+  grid-column-start: span 1;
+}
+.container .span-2 {
+  grid-column-start: span 2;
+}
+.container .span-3 {
+  grid-column-start: span 3;
+}
 
+.box {
+  border: 1px solid #80756C;
+  padding: 1em;
+}
+
+.sub-page {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0%, 1fr));
+}
+.sub-page .subnav {
+  align-self: center;
+}
+
+@media (max-width: 767px) {
+  .container, .sub-page {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .container .span-2, .container .span-3, .sub-page .span-2, .sub-page .span-3 {
+    grid-column-start: span 1;
+  }
+  .container .subnav, .sub-page .subnav {
+    display: none;
+  }
+}
 @media (max-width: 767px) {
   .title, .logo {
     padding: 1em 1em 1em 0;
