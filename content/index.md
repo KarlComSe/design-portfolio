@@ -67,3 +67,12 @@ Del 3 innehöll väldigt lite felsökning. Jag har arbetat med grid och flex-box
 ### Reflektion
 
 Grid och flex är helt fantastiskt. Jag har gjort webbsidor innan dessa koncept fanns, och det var ungefär så jobbigt så att jag gav upp. Det var floats hit och dit, absoluta och relativa positoner, z-index, o.s.v. och, det fanns t.o.m. ramverk för att underlätta grid-layout, ta en titt på https://960.gs/. En av min undersidor till Hobbies använder flex-box layout sen tidigare, och det är bara så smidigt!
+
+## Uppgift 4 / Del 4
+Här har fokus varit färg och typografi. Uppgiften gick ut på att skapa ett mörkt och ljust tema, samt även följa ett färgschema. Tycker mig fått till det helt ok på min sida. Använder ett monokromatiskt färgtema, och behåller accentfärger i mörkt och ljust tema. En annan uppgift var att analysera en webbplats, och då bl.a. beskriva vilket färgschema de använt, det var minst sagt inte alls tydligt. 
+
+Tidigare kritiserade jag kursen då jag tyckte den saknade tillräckligt med övningar. Jag har nu sett alla föreläsningar. Vissa av föreläsningarna innehåller övningar, och det är ju bra. Det innebär att jag delvis får ta tillbaka av min kritik. Hade dock varit bra för inlärningen om det varit inlämningsuppgifter. Jag har sett ett online-verktyg där man får poäng efter hur lik en bild man gör en design, kanske skulle det kunna vara något med automat-rättning och obegränsat antal försök. 
+
+### Reflektion
+
+Har haft väldigt svårt att välja färger tidigare. Min lärdom här är att vitt och svart är grundfärger, som man bör ha med i sitt färgschema oavsett. En annan lärdom är att less is more. 

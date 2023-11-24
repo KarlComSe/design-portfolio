@@ -7,17 +7,15 @@
 
 .nav ul {
     display: flex;
-    justify-content: flex-end;
-    padding: 1em 0;
+    justify-content: center;
     list-style: none;
+    margin-block-start: $spatial-spacing;
+    margin-block-end: $spatial-spacing;
 }
 
 .nav ul li {
     padding: 0 1em;
-}
-
-.nav a, .nav-toggle {
-    color: $accent-color;
+    margin-bottom: 0;
 }
 
 .nav-toggle {
@@ -31,7 +29,6 @@
 
     .nav ul {
         flex-direction: column;
-        padding-bottom: 1em;
     }
 
     .nav ul li {

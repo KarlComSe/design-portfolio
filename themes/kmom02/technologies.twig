@@ -1,6 +1,10 @@
 {% include 'incl/header.twig' %}
 
-<body>
+<body {% if config.session.theme == "dark" %}
+class="dark"
+{% else %}
+class="standard"
+{% endif %}>
     {% include 'incl/nav.twig' %}
     <div class="main" role="main">
             {% if meta.subnav %}

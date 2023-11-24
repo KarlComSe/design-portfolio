@@ -1,18 +1,32 @@
-<div class="footer">
-    <div>
-        <p>
-           <i class="fas fa-wine-glass"></i>
-        </p>
+<div class="footer light-accent-color flex-row">
+    <div class="flex-item">
+        <ul class="no-list-style">
+            <li>{{ pages["_meta"].meta.endline }}</li>
+        </ul>
     </div>
-    <div class="social">
-        <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->
-        <i class="fas fa-wine-glass"></i>
-        {% for social in pages["_meta"].meta.social %}
-        <a href="{{ social.url }}" title="{{ social.title }}" role="button">
-            <i class="{{ social.icon }}" aria-hidden="true"></i>
-            <span class="sr-only">{{ social.title }}</span>
-        </a>
-        {% endfor %}
+    <div class="social flex-item">
+        <ul class="no-list-style">
+            {% for social in pages["_meta"].meta.social %}
+            <li>
+                <a href="{{ social.url }}" title="{{ social.title }}" role="button">
+                    <i class="{{ social.icon }}" aria-hidden="true"></i>
+                    <span class="sr-only">{{ social.title }}</span>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="flex-item">
+        <ul class="no-list-style">
+            {% for visitorAction in pages["_meta"].meta.visitoractions %}
+            <li class="inline-li">
+                <a href="{{ visitorAction.url }}" title="{{ visitorAction.title }}" role="button">
+                    <i class="{{ visitorAction.icon }}" aria-hidden="true"></i>
+                    <span class="sr-only">{{ visitorAction.title }}</span>
+                </a>
+            </li>
+            {% endfor %}    
+        </ul>
     </div>
 </div>
 
