@@ -6681,6 +6681,21 @@ body.dark .nav-toggle {
   color: #FF5C33;
 }
 
+body.dark {
+  --image-filter: grayscale(50%);
+}
+body.dark img:not([src*=".svg"]) {
+  filter: var(--image-filter);
+}
+
+body.standard .footer {
+  color: #332B29;
+}
+
+body.standard .footer a {
+  color: #332B29;
+}
+
 /* Block elements */
 body {
   max-width: 767px;

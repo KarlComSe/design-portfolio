@@ -161,6 +161,20 @@ body {
 @include color-theme('standard', $background-color, $accent-alternative-color, $font-color, $accent-color, $background-alternative-color);
 @include color-theme('dark', $background-color-dark, $accent-alternative-color-dark, $font-color-dark, $accent-color-dark, $background-alternative-color-dark);
 
+body.dark {
+    --image-filter: grayscale(50%);
+    img:not([src*=".svg"]) {
+      filter: var(--image-filter);
+    }
+  }
+
+body.standard .footer {
+    color: $font-color;
+}
+body.standard .footer a{
+    color: $font-color;
+}
+
 /* Block elements */
 
 body {
