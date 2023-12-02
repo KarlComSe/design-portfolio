@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Testfil för image srcset</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .container {
+            max-width: 1200px;
+            background-color: azure;
+            margin-inline:auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <ul>
+            <li>"../assets/img/1-victory.png" media="(min-width: 767px)"</li>
+            <li>"../assets/img/2-solkram.JPG" media="(max-width: 767px)"</li>
+            <li>"../assets/img/3-byline.png" alt="Test"</li>
+        </ul>
+        <script src="" async defer></script>
+        <picture>
+            <source srcset="../assets/img/1-victory.png" media="(min-width: 767px)">
+            <source srcset="../assets/img/2-solkram.JPG" media="(max-width: 767px)">
+            <img src="../assets/img/3-byline.png" alt="Test">
+        </picture>
+    </div>
+
+</body>
+
+</html>

@@ -76,3 +76,13 @@ Tidigare kritiserade jag kursen då jag tyckte den saknade tillräckligt med öv
 ### Reflektion
 
 Har haft väldigt svårt att välja färger tidigare. Min lärdom här är att vitt och svart är grundfärger, som man bör ha med i sitt färgschema oavsett. En annan lärdom är att less is more. 
+
+# Uppgift 5 / Del 5
+Har gjort uppgifterna. Lärt mig om srcset och art direction. Mycket mer också. Har lagt fokus på JS-kursen denna vecka. En rolig grej denna vecka är att jag äntligen fick lite användning för alla timmar jag spendarat på att titta på Kevin Powell på Youtube om CSS. Han gick igenom aspect-ratio. Det gör det väldigt lätt att få till en responsiv video och man slipper använda css-hacket med padding och absolute position etc. 
+
+Lite svårigheter: 
+* Fick inte srcset att fungera. Gjorde ett förenklat exempel som funkade. Förstod inte varför. Insåg att det inte fungerar att ha ett a-element runt img-elementet, om man har srcset innan.
+* Något annat har hänt med min setup. LESS-kompileringen började klaga. Fick lägga till .css, vid import av nedan. Fick också ändra från forward och use till import. Oklart varför. Det stör mig.  
+<code>
+error themes/kmom02/scss/style.scss (Line 2: File to import not found or unreadable: ../../node_modules/normalize.css/normalize.)
+</code>

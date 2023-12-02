@@ -1,15 +1,14 @@
-@use 'variables' as *;
-@forward '../../node_modules/normalize.css/normalize';
-@forward 'code';
-@forward 'mobile-menu';
-@forward 'blockquotes';
+@import 'variables';
+@import '../../node_modules/normalize.css/normalize.css';
+@import 'code';
+@import 'mobile-menu';
+@import 'blockquotes';
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
-
 
 /* General styling & resetting */
 * {
@@ -161,17 +160,19 @@ body {
 @include color-theme('standard', $background-color, $accent-alternative-color, $font-color, $accent-color, $background-alternative-color);
 @include color-theme('dark', $background-color-dark, $accent-alternative-color-dark, $font-color-dark, $accent-color-dark, $background-alternative-color-dark);
 
-body.dark {
+body .dark {
     --image-filter: grayscale(50%);
-    img:not([src*=".svg"]) {
-      filter: var(--image-filter);
-    }
-  }
 
-body.standard .footer {
+    img:not([src*=".svg"]) {
+        filter: var(--image-filter);
+    }
+}
+
+body .standard .footer {
     color: $font-color;
 }
-body.standard .footer a{
+
+body .standard .footer a {
     color: $font-color;
 }
 
@@ -287,6 +288,23 @@ body {
         }
     }
 
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: $spatial-spacing;
+    }
+    
+    .aspect-ratio {
+        width:100%;
+        aspect-ratio: 3/2;
+    }
+
+    @media (min-width:767px) {
+        .aspect-ratio {
+            width:100%;
+            aspect-ratio: 3/2;
+        }    
+    }
     @media (max-width: 767px) {
         .container,
         .sub-page {
@@ -301,6 +319,12 @@ body {
             .subnav {
                 display: none;
             }
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: $spatial-spacing;
         }
     }
 
