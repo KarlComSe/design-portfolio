@@ -1,5 +1,5 @@
 ---
-Logo: %assets_url%/img/byline-photo.png
+Logo: %base_url%/image/byline-photo.png
 Tagline: My portfolio.
 Endline: Ingen slumpmässig text.
 Social:
