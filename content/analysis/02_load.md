@@ -27,12 +27,12 @@ För att undersöka sidornas prestanda med avseende på laddningstider och anvä
 Exempel från mätning av [johanrheborg.se](www.johanrheborg.se):
 
 <figure>
-<img src="%base_url%%base_url%/image/laddningstider/dev_tools.png" title="Screenshot på Google Chrome's DevTools">
+<img src="%base_url%/image/laddningstider/dev_tools.png" title="Screenshot på Google Chrome's DevTools">
 <figcaption>Figur 1: Resultat från en mätning av prestanda med avseende på nätverkstrafik och en webbplats rendering med hjälp av Google Chrome's DevTools</figcaption>  
 </figure>
 
 <figure>
-<img src="%base_url%/image/laddnignstider/page_speed.png" title="Page Speed mätning">
+<img src="%base_url%/image/laddningstider/page_speed.png" title="Page Speed mätning">
 <figcaption>Figur 2: Page Speed mätning från Google Page Speed som visar på en webbplats prestanda.
 Hämtad från [1]</figcaption>  
 </figure>
