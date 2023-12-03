@@ -15,16 +15,6 @@ Följande webbplatser undersöks, i ovan nämnda ordning:
 * https://charlotte-kalla.se/
 
 # Metod
-// KRAV
-Skapa ett Excel-ark, till exempel Google Kalkylark, för att spara dina mätningar i. För allt du nu skall mäta, dokumentera det i Excel-arket. Länka till ditt Excel-ark så man ser rådatan.
-Embedda din data i din analys. För att göra detta på Google Sheets trycker du på “File -> Publish to the web -> Embed”. Lägg en klass på din iframe och ändra bredden/höjden så det passar din analys.
-För varje webbplats, gör följande:
-Ta en snapshot (bild) på webbplatsen.
-Välj ut tre sidor (bifoga länkarna) som skall mätas med Google Pagespeed. Mät på både Mobile och Desktop. Notera de betyg som ges.
-För varje sida, mät med devtools flik networks och notera sidans laddningstid tillsammans med antalet resurser som laddas samt sidans totala storlek. För varje sida gör mätningen tre gånger och ta snittet av mätvärdena.
-Diskutera och skriv en mening om hur webbplatsen kan förbättra sig.
-—-------//
-
 För att undersöka sidornas prestanda med avseende på laddningstider och användbarhet görs följande:
 * Tar screenshot på webbplatsen.
 * Gör mätningar av laddningstid, antal resurser som laddas samt sidans storlek med hjälp av Chrome DevTools samt Google Pagespeed [2].
@@ -37,12 +27,12 @@ För att undersöka sidornas prestanda med avseende på laddningstider och anvä
 Exempel från mätning av [johanrheborg.se](www.johanrheborg.se):
 
 <figure>
-<img src="image/gallery/dev_tools.png" title="Screenshot på Google Chrome's DevTools">
+<img src="%base_url%%base_url%/image/laddningstider/dev_tools.png" title="Screenshot på Google Chrome's DevTools">
 <figcaption>Figur 1: Resultat från en mätning av prestanda med avseende på nätverkstrafik och en webbplats rendering med hjälp av Google Chrome's DevTools</figcaption>  
 </figure>
 
 <figure>
-<img src="image/laddnignstider/page_speed.png" title="Page Speed mätning">
+<img src="%base_url%/image/laddnignstider/page_speed.png" title="Page Speed mätning">
 <figcaption>Figur 2: Page Speed mätning från Google Page Speed som visar på en webbplats prestanda.
 Hämtad från [1]</figcaption>  
 </figure>
@@ -50,11 +40,11 @@ Hämtad från [1]</figcaption>
 # Resultat
 Resultatet av mätningarna framgår av det inbäddade kalylarket nedan. Det ska poängteras att sidorna för Taylor Swift och Charlotte Kalla enbart består av en sida, det har alltså inte varit möjligt att mäta tre sidor på dessa, utan endas startsidan har mäts.
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTDd8MHKqMECdiXQafknjgWjQW27wB-s9Nz7d-72J1gxAtzN4CRHrWgcUrzxESe3jjY29npFF-AvGkS/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe class='aspect-ratio' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTDd8MHKqMECdiXQafknjgWjQW27wB-s9Nz7d-72J1gxAtzN4CRHrWgcUrzxESe3jjY29npFF-AvGkS/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 ## Taylor Swift
 <figure>
-<img src="image/laddningstider/taylor_swift.png" title="Taylor Swifts webbplats, skärmavbild från slutet av november 2023">
+<img src="%base_url%/image/laddningstider/taylor_swift.png" title="Taylor Swifts webbplats, skärmavbild från slutet av november 2023">
 <figcaption>Figur 3: TaylorSwift.com [2]</figcaption>  
 </figure>
 
@@ -62,7 +52,7 @@ Stor webbplats med mycket rörlig media som tar lång tid att ladda in och över
 
 ## Johan Rheborg
 <figure>
-<img src="image/laddningstider/johan_rheborg.png" title="Johan Rheborgs webbplats, skärmavbild från slutet av november 2023">
+<img src="%base_url%/image/laddningstider/johan_rheborg.png" title="Johan Rheborgs webbplats, skärmavbild från slutet av november 2023">
 <figcaption>Figur 4: JohanRheborg.se [3]</figcaption>  
 </figure>
 
@@ -70,7 +60,7 @@ Stor webbplats med mycket rörlig media som tar lång tid att ladda in och över
 
 ## Charlotte Kalla
 <figure>
-<img src="image/laddningstider/charlotte_kalla.png" title="Charlotte Kallas webbplats, skärmavbild från slutet av november 2023">
+<img src="%base_url%/image/laddningstider/charlotte_kalla.png" title="Charlotte Kallas webbplats, skärmavbild från slutet av november 2023">
 <figcaption>Figur 5: CharlotteKalla.se [4]</figcaption>  
 </figure>
 
