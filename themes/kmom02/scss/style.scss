@@ -297,13 +297,11 @@ body {
     .aspect-ratio-16-9 {
         width:100%;
         aspect-ratio: 16/9;
-        box-sizing: content-box;
     }
 
     .aspect-ratio-3-2 {
         width:100%;
         aspect-ratio: 3/2;
-        box-sizing: content-box;
     }
 
     @media (min-width:767px) {
