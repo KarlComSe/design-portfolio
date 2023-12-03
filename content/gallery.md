@@ -61,5 +61,5 @@ Det här är ett responsivt galleri. Några av bilderna är tagna av [mjonssonfo
 <source media="(max-width: 767px)" srcset="image/gallery/mal_pust.JPG?w=720&save-as=jpg">
 <img src="image/gallery/mal_pust.JPG?w=720&save-as=jpg" alt="Image description">
 </picture></a>
-<iframe class='aspect-ratio' src="https://www.youtube.com/embed/xPh-5P4XH6o?si=g7r3Hd4bdmPxw8ov" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class='aspect-ratio-3-2' src="https://www.youtube.com/embed/xPh-5P4XH6o?si=g7r3Hd4bdmPxw8ov" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>

@@ -4903,11 +4903,16 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0.5rem; }
-  body .aspect-ratio {
+  body .aspect-ratio-16-9 {
     width: 100%;
-    aspect-ratio: 3/2; }
+    aspect-ratio: 16/9;
+    box-sizing: content-box; }
+  body .aspect-ratio-3-2 {
+    width: 100%;
+    aspect-ratio: 3/2;
+    box-sizing: content-box; }
   @media (min-width: 767px) {
-    body .aspect-ratio {
+    body .aspect-ratio-3-2 {
       width: 100%;
       aspect-ratio: 3/2; } }
   @media (max-width: 767px) {

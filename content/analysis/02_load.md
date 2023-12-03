@@ -40,7 +40,7 @@ Hämtad från [1]</figcaption>
 # Resultat
 Resultatet av mätningarna framgår av det inbäddade kalylarket nedan. Det ska poängteras att sidorna för Taylor Swift och Charlotte Kalla enbart består av en sida, det har alltså inte varit möjligt att mäta tre sidor på dessa, utan endas startsidan har mäts.
 
-<iframe class='aspect-ratio' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTDd8MHKqMECdiXQafknjgWjQW27wB-s9Nz7d-72J1gxAtzN4CRHrWgcUrzxESe3jjY29npFF-AvGkS/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe class='aspect-ratio-16-9' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTDd8MHKqMECdiXQafknjgWjQW27wB-s9Nz7d-72J1gxAtzN4CRHrWgcUrzxESe3jjY29npFF-AvGkS/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 ## Taylor Swift
 <figure>
