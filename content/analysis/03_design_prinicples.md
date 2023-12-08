@@ -89,7 +89,7 @@ Rheborg och Swift använder många olika artistiska och vågade designprinciper.
   * Negative space: Det finns en del negative space på webbplatsen, men det skulle eventuellt kunna vara ännu mer.
 * Olika designprinciper på olika sidor: Min specifika triathlon-sida har lite av en grid, där två bilder ligger i en grid, detsamma gäller teknologi-sidan, där det också finns lite framing (men själva ramen skulle kunna vara betydligt mer dekorerad). Galleri-sidan använder repetition av likartade element.
 * Potentiella uppdateringar: Mängder av uppdateringar är möjliga. Jag skulle vilja skapa en lite mer kreativ och dekorerad webbplats. Jag tycker att textur, skala och hierarki från Swifts webbplats var snyggt. Likväl tycker jag att linjer och grid kan få mer uttryck. 
-* Uppdateringar gjorda: 
+* Uppdateringar gjorda: Jag har valt att arbeta med textur, det är implementerat som bakgrund, på lite olika ställen. Jag har lagt till lite linjer, i navigationen. Jag har också valt att arbeta med symmetri i headern, där det är två identiskt spegelvända bilder. Jag har också balt att lägga till en skugga på mina bilder, liksom runt innehållet, för att skapa djup. Vissa av dessa saker blev riktigt bra, t.ex. bakgrundstexturen utanför själva main-content. Skuggan blev bra på den vanliga sidan, och mindre bra på den mörka sidan. Tog också bort symmetrin på mobil-sidan, då det mest tog plats. 
 
 
 # Referenser

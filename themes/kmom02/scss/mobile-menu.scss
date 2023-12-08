@@ -18,6 +18,16 @@
     margin-bottom: 0;
 }
 
+.nav {
+    a {
+        text-decoration: underline wavy;
+    }
+    
+    a:hover{
+        text-decoration: underline dashed;
+    }
+}
+
 .nav-toggle {
     display: none;
 }

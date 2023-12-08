@@ -36,6 +36,10 @@ body {
         font-size: 0.95em;
     }
 
+    .title {
+        margin: 2*$spatial-spacing;
+    }
+
     p,
     td,
     th,
@@ -92,10 +96,12 @@ body {
 }
 
 /* Colors */
-@mixin color-theme($mode, $background-color, $accent-alternative-color, $font-color, $accent-color, $background-alternative-color) {
+@mixin color-theme($mode, $background-color, $accent-alternative-color, $font-color, $accent-color, $background-alternative-color, $nav-background-color) {
     body.#{$mode} {
         color: $font-color;
         background-color: $background-color;
+        background-image: repeating-linear-gradient(26deg, rgba(93, 93, 93, 0.25), rgba(253, 118, 0, 0.25) 2px, transparent 3px, transparent 7px);
+
 
         .border-accent-color {
             border-color: $accent-alternative-color;
@@ -107,6 +113,8 @@ body {
 
         .title * {
             color: $accent-alternative-color;
+            background-color: $background-color;
+
         }
 
         .color-highlight-1 {
@@ -133,32 +141,49 @@ body {
             border-color: $accent-alternative-color;
         }
 
-        .main,
-        .header {
+        .main {
             background: $background-alternative-color;
             border: 1px solid $accent-alternative-color;
+            box-shadow: $spatial-spacing $spatial-spacing $accent-alternative-color;
         }
 
+        .header,
         .footer {
-            background-color: $accent-color;
-            color: $background-color;
+            background-color: $background-color;
+            background-image: repeating-linear-gradient(-26deg, rgba(93, 93, 93, 0.95), rgba(253, 118, 0, 0.95) 2px, transparent 3px, transparent 7px);
+            background-size: 6px 8px;
             border: 1px solid $accent-alternative-color;
-
-            a {
-                color: $background-color;
-                text-decoration: none;
-            }
+            box-shadow: $spatial-spacing $spatial-spacing $accent-alternative-color;
         }
+
+        code,
+        pre {
+            background-color: $font-color;
+            border: 1px solid $accent-alternative-color;
+            color: $background-color
+        }
+
+        // .footer {
+        //     background-color: $accent-color;
+        //     color: $background-color;
+        //     border: 1px solid $accent-alternative-color;
+
+        //     a {
+        //         color: $background-color;
+        //         text-decoration: none;
+        //     }
+        // }
 
         .nav a,
         .nav-toggle {
             color: $accent-color;
+            background-color: $nav-background-color;
         }
     }
 }
 
-@include color-theme('standard', $background-color, $accent-alternative-color, $font-color, $accent-color, $background-alternative-color);
-@include color-theme('dark', $background-color-dark, $accent-alternative-color-dark, $font-color-dark, $accent-color-dark, $background-alternative-color-dark);
+@include color-theme('standard', $background-color, $accent-alternative-color, $font-color, $accent-color, $background-alternative-color, $nav-background-color);
+@include color-theme('dark', $background-color-dark, $accent-alternative-color-dark, $font-color-dark, $accent-color-dark, $background-alternative-color-dark, $nav-background-color-dark);
 
 body .dark {
     --image-filter: grayscale(50%);
@@ -186,8 +211,13 @@ body {
     flex-direction: column;
 
 
-    img {
+    .main img {
         max-width: 100%;
+        box-shadow: $spatial-spacing/2 $spatial-spacing/2 $accent-color;
+    }
+
+    .flipped {
+        transform: scaleX(-1);
     }
 
     .flex-box {
@@ -295,21 +325,22 @@ body {
     }
 
     .aspect-ratio-16-9 {
-        width:100%;
+        width: 100%;
         aspect-ratio: 16/9;
     }
 
     .aspect-ratio-3-2 {
-        width:100%;
+        width: 100%;
         aspect-ratio: 3/2;
     }
 
     @media (min-width:767px) {
         .aspect-ratio-3-2 {
-            width:100%;
+            width: 100%;
             aspect-ratio: 3/2;
-        }    
+        }
     }
+
     @media (max-width: 767px) {
         .container,
         .sub-page {
@@ -324,6 +355,10 @@ body {
             .subnav {
                 display: none;
             }
+        }
+
+        .hide {
+            display: none;
         }
 
         .gallery {
@@ -369,12 +404,17 @@ body {
     content: 'random content'
 }
 
+
+.spatial-spacing-padding-1 {
+    padding: $spatial-spacing;
+}
+
 .spatial-spacing-padding-top-1 {
     padding-top: $spatial-spacing;
 }
 
 .spatial-spacing-padding-bottom-2 {
-    padding-top: 2*$spatial-spacing;
+    padding-bottom: 2*$spatial-spacing;
 }
 
 .no-list-style {

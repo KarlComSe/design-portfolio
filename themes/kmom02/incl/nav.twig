@@ -1,32 +1,37 @@
 <div class="header" role="banner">
     <div class="flex-column spatial-spacing-padding-top-1 spatial-spacing-padding-bottom-2 light-accent-color">
             {% if pages["_meta"].meta.logo %}
-            <div class="logo">
-                <a href="{{ base_url }}">
-                    <img src="{{ pages["_meta"].meta.logo|url }}" alt="" />
+            <div class="logo spatial-spacing-padding-bottom-2">
+                <a href="{{ base_url }}" class="flex-row">
+                    <img class="hide" src="{{ pages["_meta"].meta.logo|url }}" alt="Stiliserad bild på Karl med hörlurar" />
+                    <div class="title flex-column">
+                        <h1>{{ site_title }}</h1>
+                        {{ pages["_meta"].meta.tagline|markdown }}    
+                    </div>    
+                    <img class = "flipped hide" src="{{ pages["_meta"].meta.logo|url }}" alt="Stiliserad bild på Karl med hörlurar, spegelvänd" />
                 </a>
             </div>
             {% endif %}
-            <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
+            {# <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
                 <a class="flex-column" href="{{ base_url }}">
                     <h1>{{ site_title }}</h1>
                     {{ pages["_meta"].meta.tagline|markdown }}
                 </a>
-            </div>
+            </div> #}
     </div>
     <div class="site-header">
-        <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false"
-            tabindex="1">
+        <a class="nav-toggle spatial-spacing-padding-1" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false"
+            >
             <i class="fab fa-github" aria-hidden="true" id="toggler"></i>
             <span class="sr-only">Toggle Menu</span>
         </a>
     </div>
     <div class="nav">
-        <div id="nav" role="navigation" tabindex="-1">
+        <div id="nav" role="navigation">
             <ul>
                 {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
                     <li{% if page.id==current_page.id %} class="active" {% endif %}>
-                        <a href="{{ page.url }}">{{ page.title }}</a>
+                        <a class="spatial-spacing-padding-1" href="{{ page.url }}">{{ page.title }}</a>
                     </li>
                 {% endfor %}
             </ul>
