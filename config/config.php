@@ -21,11 +21,11 @@ if (isset($_GET["action"])) {
         $url = preg_replace("/index.php\//", "", $url);
         header("Location: $url");
     }
+    if ($_GET["action"] == "session_destroy") {
+        session_destroy();
+        $url = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["PHP_SELF"];
+        $url = preg_replace("/index.php\//", "", $url);
+        header("Location: $url");
+    }
 }
 
-if ($_GET["action"] == "session_destroy") {
-    session_destroy();
-    $url = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["PHP_SELF"];
-    $url = preg_replace("/index.php\//", "", $url);
-    header("Location: $url");
-}
