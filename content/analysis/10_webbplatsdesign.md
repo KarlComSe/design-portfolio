@@ -87,7 +87,6 @@ Konkret tillvägagångssätt för att göra ovanstående:
 #### Produktsida
 
 ![image alt text](%base_url%/image/project/image4.png)
-![image alt text](%base_url%/image/project/image9.png)
 
 ### Fyndiq.se
 
