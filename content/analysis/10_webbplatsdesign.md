@@ -24,7 +24,7 @@ Uppgiften är att analysera aktuella webbplatsdesigner och undersöka aktuella t
 
 * **Känsla**, utifrån författarnas subjektiva upplevelse av webbplatserna.
 
-* **Designelement och principer**, utifrån Design elements and principles [1] (M. Stribley,  [https://www.canva.com/learn/design-elements-principles/](https://www.canva.com/learn/design-elements-principles/)). Materialet definierar 20 designprinciper.
+* **Designelement och principer**, utifrån “Design elements and principles” [4]. Materialet definierar 20 designprinciper.
 
 * **Typografi**, med hjälp av webbläsarens developer tools.
 
@@ -154,7 +154,7 @@ Det är bara Blocket som får ett resultat över 90, och därtill enbart på sin
 
 Genomgående har webbplatserna en relativt låg prestanda. Författarna upplever inte någon av webbplatserna som särskilt långsam trots prestandabetyget, men då är författarna och andra besökare troligtvis redan intresserade av vad de har att erbjuda och känner till varumärkena.
 
-Det sägs att en av många faktor för att hamna högt upp i sökresultaten hos t.ex. Google, är att tillhandahålla en snabb och väl fungerande sida. När det kommer till Sellpy, Blocket och Fyndiq, kanske de inte anser att detta är en viktig parameter. Författarna tycker dock att det skulle kunna vara relevant för Fyndiq, då besökare söker på produkterna i sökmotormarknadsföring. Med tanke på denna observation testade vi att söka på produkttermer som är relevanta för Fyndiq. Det visade sig att Fyndiq kom långt ner i sökresultat (position 20+), och mindre handlare kom tidigare. Här noterar vi dock att Fyndiq istället använder sig av betald sökmotormarknadsföring och där kommer på topp 3.
+Det sägs att en av många faktor för att hamna högt upp i sökresultaten hos t.ex. Google, är att tillhandahålla en snabb och väl fungerande sida. När det kommer till Sellpy, Blocket och Fyndiq, kanske de inte anser att detta är en viktig parameter. Författarna tycker dock att det skulle kunna vara relevant för Fyndiq, då besökare söker på produkterna i sökmotorer. Med tanke på denna observation testade vi att söka på produkttermer som är relevanta för Fyndiq. Det visade sig att Fyndiq kom långt ner i sökresultat (position 20+), och mindre handlare kom tidigare. Här noterar vi dock att Fyndiq istället använder sig av betald sökmotormarknadsföring och där kommer på topp 3.
 
 En analys kring detta hos de undersökta webbplatserna tycks motiverad, och mindre åtgärder hade troligen varit hjälpsamma för att bland annat minska marknadsföringskostnader på sikt, samt öka tillgängligheten för grupper i behov av detta.
 
