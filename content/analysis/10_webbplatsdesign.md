@@ -160,10 +160,7 @@ En analys kring detta hos de undersökta webbplatserna tycks motiverad, och mind
 
 # **Referenser**
 
-* [1] (2024, January 9). Design elements and principles [Online]. Tillgänglig: <https://www.canva.com/learn/design-elements-principles/>
-
-* [2] (2024, January 9). Blocket [Online]. Tillgänglig: <https://blocket.se/>
-
-* [3] (2024, January 9). Sellpy [Online]. Tillgänglig: <https://sellpy.se/>
-
-* [4] (2024, January 9). Fyndiq [Online]. Tillgänglig: <https://fyndiq.se/>
+* [1] (2024, January 9). Blocket [Online]. Tillgänglig: https://blocket.se/
+* [2] (2024, January 9). Sellpy [Online]. Tillgänglig: https://sellpy.se/
+* [3] (2024, January 9). Fyndiq [Online]. Tillgänglig: https://fyndiq.se/
+* [4] (2024, January 9). Design elements and principles [Online]. Tillgänglig: https://www.canva.com/learn/design-elements-principles/
