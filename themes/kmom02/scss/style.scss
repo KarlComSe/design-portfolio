@@ -51,6 +51,19 @@ body {
         margin-bottom: $spatial-spacing;
     }
 
+    .kmom0506 {
+        table,
+        td,
+        th {
+            font-size: small;
+        }
+
+        td {
+            vertical-align: top;
+        }
+
+    }
+
     .main h1:first-child {
         margin-block-start: 0;
     }
@@ -213,7 +226,7 @@ body {
 
     .main img {
         max-width: 100%;
-        box-shadow: $spatial-spacing/2 $spatial-spacing/2 $accent-color;
+        box-shadow: calc($spatial-spacing/2) calc($spatial-spacing/2) $accent-color;
     }
 
     .flipped {
